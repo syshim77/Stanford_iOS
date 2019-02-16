@@ -13,6 +13,7 @@
 		A551EC2B2215BD3300764D1A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A551EC292215BD3300764D1A /* LaunchScreen.storyboard */; };
 		A551EC342215BE1000764D1A /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A551EC332215BE1000764D1A /* ImageViewController.swift */; };
 		A551EC362215C02600764D1A /* DemoURL.swift in Sources */ = {isa = PBXBuildFile; fileRef = A551EC352215C02600764D1A /* DemoURL.swift */; };
+		A551EC5A22180FAB00764D1A /* CassiniViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A551EC5922180FAB00764D1A /* CassiniViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		A551EC2C2215BD3300764D1A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A551EC332215BE1000764D1A /* ImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
 		A551EC352215C02600764D1A /* DemoURL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoURL.swift; sourceTree = "<group>"; };
+		A551EC5922180FAB00764D1A /* CassiniViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CassiniViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,23 +58,16 @@
 		A551EC1F2215BD3100764D1A /* Cassini */ = {
 			isa = PBXGroup;
 			children = (
-				A551EC332215BE1000764D1A /* ImageViewController.swift */,
-				A551EC352215C02600764D1A /* DemoURL.swift */,
-				A551EC322215BD6200764D1A /* Supporting Files */,
-				A551EC242215BD3100764D1A /* Main.storyboard */,
-				A551EC2C2215BD3300764D1A /* Info.plist */,
-			);
-			path = Cassini;
-			sourceTree = "<group>";
-		};
-		A551EC322215BD6200764D1A /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
 				A551EC202215BD3100764D1A /* AppDelegate.swift */,
 				A551EC272215BD3300764D1A /* Assets.xcassets */,
 				A551EC292215BD3300764D1A /* LaunchScreen.storyboard */,
+				A551EC332215BE1000764D1A /* ImageViewController.swift */,
+				A551EC352215C02600764D1A /* DemoURL.swift */,
+				A551EC242215BD3100764D1A /* Main.storyboard */,
+				A551EC5922180FAB00764D1A /* CassiniViewController.swift */,
+				A551EC2C2215BD3300764D1A /* Info.plist */,
 			);
-			path = "Supporting Files";
+			path = Cassini;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -149,6 +144,7 @@
 				A551EC342215BE1000764D1A /* ImageViewController.swift in Sources */,
 				A551EC212215BD3100764D1A /* AppDelegate.swift in Sources */,
 				A551EC362215C02600764D1A /* DemoURL.swift in Sources */,
+				A551EC5A22180FAB00764D1A /* CassiniViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -294,7 +290,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = Cassini/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -302,6 +300,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = sooyeon.Cassini;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -311,7 +310,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = Cassini/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -319,6 +320,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = sooyeon.Cassini;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
