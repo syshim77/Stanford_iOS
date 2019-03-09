@@ -36,7 +36,7 @@ class FaceViewController: UIViewController {
         }
     }
     
-    private func updateUI() {
+    func updateUI() {
         if faceView != nil {
             switch expression.eyes {
             case .Open: faceView.eyesOpen = true
